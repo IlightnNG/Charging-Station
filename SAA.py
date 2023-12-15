@@ -113,9 +113,9 @@ class SA:
         self.history = {'f': [], 'T': [],'Alpha':[],'Beta':[],'a':[],'b':[]}
 
     def read(self):
-        self.Pout=np.loadtxt("D:\PythonProject\Charging station\Pout.txt")
-        self.S_Alpha=np.loadtxt("D:\PythonProject\Charging station\S_Alpha.txt")
-        self.S_Beta=np.loadtxt("D:\PythonProject\Charging station\S_Beta.txt")
+        self.Pout=np.loadtxt("Pout.txt")
+        self.S_Alpha=np.loadtxt("S_Alpha.txt")
+        self.S_Beta=np.loadtxt("S_Beta.txt")
         #print(self.Pout)
         #print(self.S_Alpha)
         #print(self.S_Beta)
